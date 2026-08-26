@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Halal Uddin | Graphics Designer</title>
+<meta name="description" content="Professional graphic design portfolio of Halal Uddin. Logo, branding, business card, Arabic-English design, flyers, banners and vector design.">
+<style>
+:root{--bg:#0b1020;--card:#121a2d;--text:#f5f7fb;--muted:#aab4c7;--accent:#6ee7ff;--accent2:#8b5cf6;--line:#24304a}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;background:linear-gradient(135deg,#080c18,#10182a);color:var(--text);line-height:1.6}
+a{text-decoration:none;color:inherit}
+.container{width:min(1120px,92%);margin:auto}
+header{position:sticky;top:0;z-index:20;background:rgba(8,12,24,.88);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.nav{height:72px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-weight:800;font-size:22px;letter-spacing:.5px}
+.logo span{color:var(--accent)}
+nav{display:flex;gap:24px}
+nav a{color:#dce4f2;font-size:14px}
+nav a:hover{color:var(--accent)}
+.hero{min-height:82vh;display:grid;place-items:center;padding:90px 0}
+.hero-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:55px;align-items:center}
+.badge{display:inline-block;border:1px solid #31405e;border-radius:999px;padding:7px 13px;color:var(--accent);font-size:13px;margin-bottom:20px;background:#101a2e}
+h1{font-size:clamp(44px,7vw,78px);line-height:1.02;margin-bottom:20px}
+h1 span{background:linear-gradient(90deg,var(--accent),#a78bfa);-webkit-background-clip:text;color:transparent}
+.hero p{color:var(--muted);max-width:650px;font-size:18px}
+.buttons{display:flex;gap:12px;margin-top:30px;flex-wrap:wrap}
+.btn{padding:12px 20px;border-radius:10px;font-weight:700;font-size:14px;border:1px solid #34415d}
+.btn.primary{background:linear-gradient(90deg,#4fdcf6,#8b5cf6);color:#08101d;border:0}
+.btn:hover{transform:translateY(-2px)}
+.hero-card{background:radial-gradient(circle at top,#24395c,#121a2d 55%);border:1px solid var(--line);border-radius:28px;padding:35px;min-height:350px;display:grid;place-items:center;box-shadow:0 25px 70px rgba(0,0,0,.25)}
+.monogram{width:190px;height:190px;border-radius:50%;display:grid;place-items:center;font-size:70px;font-weight:900;border:2px solid #5ee7ff;background:linear-gradient(145deg,#172640,#0b1120);box-shadow:0 0 45px rgba(110,231,255,.16)}
+section{padding:90px 0}
+.section-head{margin-bottom:35px}
+.kicker{color:var(--accent);text-transform:uppercase;font-size:12px;font-weight:800;letter-spacing:2px}
+h2{font-size:38px;margin-top:6px}
+.section-head p{color:var(--muted);max-width:650px;margin-top:8px}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:35px}
+.panel{background:var(--card);border:1px solid var(--line);padding:28px;border-radius:18px}
+.panel p{color:var(--muted)}
+.skills{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
+.skill{padding:8px 12px;border-radius:8px;background:#1a2540;color:#dce8fa;font-size:13px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.work{min-height:210px;border-radius:16px;border:1px solid var(--line);background:linear-gradient(145deg,#18233b,#0e1526);padding:24px;display:flex;flex-direction:column;justify-content:flex-end;transition:.2s}
+.work:hover{transform:translateY(-5px);border-color:#41547a}
+.work .num{font-size:12px;color:var(--accent);margin-bottom:auto}
+.work h3{font-size:20px}
+.work p{color:var(--muted);font-size:13px;margin-top:5px}
+.services .work{min-height:180px}
+.contact{background:#0a0f1c;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.contact-box{display:flex;justify-content:space-between;gap:25px;align-items:center}
+.contact-box p{color:var(--muted);max-width:600px}
+footer{padding:28px 0;color:#77839a;font-size:13px;text-align:center}
+@media(max-width:800px){
+ nav{display:none}
+ .hero-grid,.about{grid-template-columns:1fr}
+ .hero{padding:70px 0}
+ .grid{grid-template-columns:1fr 1fr}
+ .contact-box{flex-direction:column;align-items:flex-start}
+}
+@media(max-width:520px){.grid{grid-template-columns:1fr}h2{font-size:31px}}
+</style>
+</head>
+<body>
+<header>
+<div class="container nav">
+<a class="logo" href="#home">Halal<span>Uddin</span></a>
+<nav>
+<a href="#home">Home</a><a href="#about">About</a><a href="#portfolio">Portfolio</a><a href="#services">Services</a><a href="#contact">Contact</a>
+</nav>
+</div>
+</header>
+
+<main>
+<section class="hero" id="home">
+<div class="container hero-grid">
+<div>
+<div class="badge">GRAPHICS DESIGNER • BRANDING • PRINT DESIGN</div>
+<h1>Creative design that makes your <span>brand stand out.</span></h1>
+<p>I create clean, modern and professional visual designs for businesses, brands and print. Specializing in logos, business cards, Arabic-English designs, flyers, banners and vector artwork.</p>
+<div class="buttons">
+<a class="btn primary" href="#portfolio">View Portfolio</a>
+<a class="btn" href="#contact">Hire Me</a>
+</div>
+</div>
+<div class="hero-card"><div class="monogram">HU</div></div>
+</div>
+</section>
+
+<section id="about">
+<div class="container">
+<div class="section-head"><div class="kicker">About Me</div><h2>Design with purpose.</h2></div>
+<div class="about">
+<div class="panel"><p>I’m <strong>Halal Uddin</strong>, a Graphics Designer focused on practical, polished designs that work both digitally and in print. My goal is to turn your idea into a professional visual identity.</p></div>
+<div class="panel"><p><strong>Core skills</strong></p><div class="skills">
+<span class="skill">Logo Design</span><span class="skill">Brand Identity</span><span class="skill">Business Card</span><span class="skill">Arabic & English</span><span class="skill">Flyer & Brochure</span><span class="skill">Banner</span><span class="skill">Vector Tracing</span><span class="skill">Print Ready</span>
+</div></div>
+</div>
+</div>
+</section>
+
+<section id="portfolio">
+<div class="container">
+<div class="section-head"><div class="kicker">Selected Work</div><h2>Portfolio</h2><p>Replace these sample cards with your actual project images and links.</p></div>
+<div class="grid">
+<div class="work"><div class="num">01</div><h3>Logo Design</h3><p>Modern logos and brand marks.</p></div>
+<div class="work"><div class="num">02</div><h3>Business Cards</h3><p>Professional print-ready layouts.</p></div>
+<div class="work"><div class="num">03</div><h3>Arabic & English</h3><p>Bilingual branding and stationery.</p></div>
+<div class="work"><div class="num">04</div><h3>Flyer & Brochure</h3><p>Promotional designs for businesses.</p></div>
+<div class="work"><div class="num">05</div><h3>Banner & Signboard</h3><p>Large-format advertising artwork.</p></div>
+<div class="work"><div class="num">06</div><h3>Vector Design</h3><p>Clean vector redraws and artwork.</p></div>
+</div>
+</div>
+</section>
+
+<section id="services" class="services">
+<div class="container">
+<div class="section-head"><div class="kicker">What I Do</div><h2>Services</h2></div>
+<div class="grid">
+<div class="work"><h3>Logo & Branding</h3><p>Professional identity systems for new and existing businesses.</p></div>
+<div class="work"><h3>Business Card</h3><p>Modern Arabic, English and bilingual business cards.</p></div>
+<div class="work"><h3>Marketing Design</h3><p>Flyers, brochures, posters, banners and promotional graphics.</p></div>
+<div class="work"><h3>Vector Tracing</h3><p>Recreate low-resolution logos and artwork as clean vectors.</p></div>
+<div class="work"><h3>Print Design</h3><p>High-resolution, print-ready files prepared for production.</p></div>
+<div class="work"><h3>Custom Design</h3><p>Tell me your idea and I’ll create a design around your needs.</p></div>
+</div>
+</div>
+</section>
+
+<section id="contact" class="contact">
+<div class="container contact-box">
+<div><div class="kicker">Let's Work Together</div><h2>Have a project?</h2><p>Contact me through your preferred platform and share your requirements.</p></div>
+<div class="buttons">
+<a class="btn primary" href="https://www.fiverr.com/" target="_blank">Fiverr</a>
+<a class="btn" href="https://www.freelancer.com/" target="_blank">Freelancer</a>
+<a class="btn" href="https://wa.me/" target="_blank">WhatsApp</a>
+</div>
+</div>
+</section>
+</main>
+
+<footer>© 2026 Halal Uddin — Graphics Designer. All rights reserved.</footer>
+</body>
+</html>
